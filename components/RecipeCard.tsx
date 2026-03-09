@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import { Alert, Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { Recipe } from '../types/recipe';
 
 interface RecipeCardProps {
-  recipe: any;
+  recipe: Recipe;
   onPress?: () => void;
 }
 
